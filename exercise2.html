@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+   <div id="profile-card">
+        <h2 id="user-name"></h2>
+        <p id="user-email"></p>
+        <p id="user-city"></p>
+    </div>
+    <p id="error-msg" style="color: red;"></p>
+ 
+    <hr>
+
+    <select name="user" id="post-select">
+        <option value="">Select a post</option>
+        <option value="1">Post 1</option>
+        <option value="2">Post 2</option>
+        <option value="3">Post 3</option>u
+        <option value="4">Post 4</option>
+        <option value="5">Post 5</option>
+    </select>
+    <button id="load-btn">Load Post</button>
+    <div id="post-card">
+        <h2 id="post-title"></h2>
+        <p id="post-body"></p>
+    </div>
+<p id="Post-msg" style="color: red;"></p>
+<hr>
+
+<h2>Comments</h2>
+<ul id="comment-list"></ul>
+<p id="comment-error" style="color: red;"></p>
+<hr>
+
+<input type="number" id="user-input" placeholder="Enter user ID (1-10)">
+<button id="search-btn">Search User</button>
+
+<div id="user-result">
+<p id="result-name"></p>
+<p id="result-email"></p>
+<p id="result-phone"></p>
+</div>
+<p id="search-error" style="color: red;"></p>
+<hr>
+
+<div id="dashboard">
+    <h2 id="dash-name"></h2>
+    <p id="dash-post-count"></p>
+</div>
+<p id="dash-error" style="color: red;"></p>
+
+    <script src="exercise2.js"></script>
+</body>
+</html>

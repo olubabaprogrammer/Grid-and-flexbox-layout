@@ -1,0 +1,15 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+
+.wrapper div {
+    padding: 1rem;
+    background-color: #eee;
+}
+
+.wrapper div:nth-child(odd) {
+    background-color: #ddd;
+}
